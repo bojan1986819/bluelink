@@ -38,6 +38,16 @@
                             </div>
                         </div>
 
+                        <div class="form-group {{ $errors->has('admin') ? 'has-error' : '' }}">
+                            <label for="admin" class="col-md-4 control-label">Admin</label>
+                            <div class="col-md-6">
+                                <select class="form-control" type="admin" name="admin" id="admin" value="{{ Request::old('admin') }}">
+                                    <option value="1">yes</option>
+                                    <option value="0">no</option>
+                                </select>
+                            </div>
+                        </div>
+
                         <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
                             <label for="password" class="col-md-4 control-label">Password</label>
 
