@@ -69,3 +69,9 @@ Route::get('/deletepayroll/{payroll_id}', [
     'as' => 'deletepayroll',
     'middleware' => 'admin'
 ]);
+
+Route::post('/import', [
+    'uses' => 'ImportController@postImportExcel',
+    'as' => 'import',
+    'middleware' => 'admin'
+]);

@@ -36,9 +36,9 @@
             background-color: #00b7ef;
             color: #fff200;
             position: absolute;
-            top: 6.5cm;
+            top: 6.2cm;
             left: 18cm;
-            width: 9.7cm;
+            width: 12cm;
             height: 2.4cm;
         }
         
@@ -157,14 +157,18 @@
             </tr>
             <tr>
                 <td align="center">
-                    <a class="btn btn-info">Import Data</a>
+                    <a class="btn btn-info">All Tickets</a>
                     <a class="btn btn-info" href="{{ route('users') }}">Manage Users</a>
                     <a class="btn btn-info">Update Cut Offs</a>
                 </td>
             </tr>
             <tr>
                 <td align="center">
-                    <a class="btn btn-info">All Tickets</a>
+                    <form action="{{ route('import') }}" method="post" enctype="multipart/form-data">
+                        <input type="file" class="btn btn-primary" name="import_file" style="display: inline-block;"/>
+                        <input type="hidden" name="_token" value="{{ Session::token() }}">
+                        <button class="btn btn-info" style="display: inline-block;">Import Data</button>
+		            </form>
                 </td>
             </tr>
         </table>
