@@ -9,7 +9,13 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Laravel') }}</title>
+    <link rel="shortcut icon" href="{{ URL::to('favicon.ico')}}">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ URL::to('js/phpgrid/themes/redmond/jquery-ui.custom.css')}}">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ URL::to('js/phpgrid/jqgrid/css/ui.jqgrid.classic.css')}}">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="{{ URL::to('js/phpgrid/jqgrid/js/i18n/grid.locale-en.js')}}" type="text/javascript"></script>
+    <script src="{{ URL::to('js/phpgrid/jqgrid/js/jquery.jqGrid.min.js')}}" type="text/javascript"></script>
+    <script src="{{ URL::to('js/phpgrid/themes/jquery-ui.custom.min.js')}}" type="text/javascript"></script>
 
     <!-- Styles -->
     
@@ -45,7 +51,7 @@
                     </button>
 
                     <!-- Branding Image -->
-                    <a class="navbar-brand" href="{{ url('/') }}">
+                    <a class="navbar-brand" href="http://ecolab.com">
                         {{--{{ config('app.name', 'Laravel') }}--}}
                         Ecolab
                     </a>
@@ -81,6 +87,17 @@
             </div>
         </nav>
 
+        <style>
+            .ui-datepicker .ui-datepicker-title select {
+                color: #000;
+            }
+
+            .ui-jqgrid tr.jqgrow td
+            {
+                vertical-align: top;
+                white-space: normal;
+            }
+        </style>
         @yield('content')
     </div>
 </body>

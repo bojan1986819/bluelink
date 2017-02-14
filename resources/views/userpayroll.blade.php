@@ -3,6 +3,7 @@
     <a class="btn btn-primary" href="{{ route('users') }}" style="margin:8px 0 0 200px;">Close</a>
 @endsection
 @section('content')
+    @include('includes.message-block')
 <style>
     .container{
         width: 100%;

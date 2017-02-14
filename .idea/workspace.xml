@@ -2,37 +2,704 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a978a3dc-28d1-4011-b642-f44821defdcd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bluelinktitle.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPayrollController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserTeamController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Middleware/IsAdmin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Middleware/Winauth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/UserPayroll.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/UserTeam.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2017_01_27_204057_create_user_teams_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2017_01_27_204235_create_user_payrolls_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2017_01_28_230751_ddPayroll.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2017_01_28_230802_ddTeam.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/modals/new-payroll.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/modals/new-team.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/userpayroll.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/users.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/userteam.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/docs/adodb.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/docs/adodb2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/aealarabiya.ctg.z" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/aealarabiya.z" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/aefurat.ctg.z" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/aefurat.z" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/arial.afm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/arial.z" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/zarbold.ctg.z" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/images/_blank.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/sRGB.icc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/tcpdf.fdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/tcpdf.p12" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/css/fonts/jquery-ui.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/css/fonts/jquery-ui.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/css/fonts/jquery-ui.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/base/images/animated-overlay.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/base/images/ui-icons_444444_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/base/images/ui-icons_555555_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/base/images/ui-icons_777620_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/base/images/ui-icons_777777_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/base/images/ui-icons_cc0000_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/base/images/ui-icons_ffffff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/flick/images/animated-overlay.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/flick/images/ui-anim_basic_16x16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/flick/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/flick/images/ui-bg_flat_0_eeeeee_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/flick/images/ui-bg_flat_55_ffffff_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/flick/images/ui-bg_flat_75_ffffff_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/flick/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/flick/images/ui-bg_highlight-soft_100_f6f6f6_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/flick/images/ui-bg_highlight-soft_25_0073ea_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/flick/images/ui-bg_highlight-soft_50_dddddd_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/flick/images/ui-icons_0073ea_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/flick/images/ui-icons_454545_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/flick/images/ui-icons_666666_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/flick/images/ui-icons_ff0084_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/flick/images/ui-icons_ffffff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/start/images/animated-overlay.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/start/images/ui-anim_basic_16x16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/start/images/ui-bg_flat_55_999999_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/start/images/ui-bg_flat_75_aaaaaa_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/start/images/ui-bg_glass_45_0078ae_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/start/images/ui-bg_glass_55_f8da4e_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/start/images/ui-bg_glass_75_79c9ec_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/start/images/ui-bg_gloss-wave_45_e14f1c_500x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/start/images/ui-bg_gloss-wave_50_6eac2c_500x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/start/images/ui-bg_gloss-wave_75_2191c0_500x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/start/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/start/images/ui-icons_0078ae_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/start/images/ui-icons_056b93_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/start/images/ui-icons_d8e7f3_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/start/images/ui-icons_e0fdff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/start/images/ui-icons_f5e175_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/start/images/ui-icons_f7a50d_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/start/images/ui-icons_fcd113_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/sunny/images/animated-overlay.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/sunny/images/ui-bg_diagonals-medium_20_d34d17_40x40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/sunny/images/ui-bg_flat_30_cccccc_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/sunny/images/ui-bg_flat_50_5c5c5c_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/sunny/images/ui-bg_gloss-wave_45_817865_500x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/sunny/images/ui-bg_gloss-wave_60_fece2f_500x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/sunny/images/ui-bg_gloss-wave_70_ffdd57_500x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/sunny/images/ui-bg_gloss-wave_90_fff9e5_500x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/sunny/images/ui-bg_highlight-soft_100_feeebd_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/sunny/images/ui-bg_inset-soft_30_ffffff_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/sunny/images/ui-icons_3d3d3d_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/sunny/images/ui-icons_bd7b00_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/sunny/images/ui-icons_d19405_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/sunny/images/ui-icons_eb990f_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/sunny/images/ui-icons_ed9f26_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/sunny/images/ui-icons_fadc7a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/sunny/images/ui-icons_ffe180_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/vader/images/ui-bg_highlight-soft_35_adadad_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Allevents.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/JSON.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/adodb-active-record.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/adodb-active-recordx.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/adodb-csvlib.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/adodb-datadict.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/adodb-error.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/adodb-errorhandler.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/adodb-errorpear.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/adodb-exceptions.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/adodb-iterator.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/adodb-lib.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/adodb-memcache.lib.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/adodb-pager.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/adodb-pear.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/adodb-perf.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/adodb-php4.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/adodb-time.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/adodb-xmlschema.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/adodb-xmlschema03.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/adodb.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/contrib/toxmlrpc.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/datadict/datadict-access.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/datadict/datadict-db2.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/datadict/datadict-firebird.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/datadict/datadict-generic.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/datadict/datadict-ibase.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/datadict/datadict-informix.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/datadict/datadict-mssql.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/datadict/datadict-mssqlnative.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/datadict/datadict-mysql.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/datadict/datadict-oci8.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/datadict/datadict-postgres.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/datadict/datadict-sapdb.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/datadict/datadict-sqlite.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/datadict/datadict-sybase.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/docs/adodb-faq.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/docs/docs-active-record.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/docs/docs-adodb.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/docs/docs-datadict.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/docs/docs-oracle.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/docs/docs-perf.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/docs/docs-session.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/docs/docs-session.old.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/docs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/docs/tips_portable_sql.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/docs/tute.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-access.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-ado.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-ado5.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-ado_access.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-ado_mssql.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-ads.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-borland_ibase.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-csv.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-db2.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-db2oci.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-db2ora.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-fbsql.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-firebird.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-ibase.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-informix.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-informix72.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-ldap.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-mssql.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-mssql_n.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-mssqlnative.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-mssqlpo.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-mysql.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-mysqli.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-mysqlpo.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-mysqlt.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-netezza.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-oci8.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-oci805.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-oci8po.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-oci8quercus.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-odbc.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-odbc_db2.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-odbc_mssql.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-odbc_oracle.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-odbtp.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-odbtp_unicode.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-oracle.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-pdo.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-pdo_mssql.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-pdo_mysql.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-pdo_oci.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-pdo_pgsql.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-pdo_sqlite.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-postgres.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-postgres64.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-postgres7.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-postgres8.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-postgres9.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-proxy.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-sapdb.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-sqlanywhere.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-sqlite.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-sqlite3.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-sqlitepo.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-sybase.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-sybase_ase.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-text.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/drivers/adodb-vfp.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/lang/adodb-ar.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/lang/adodb-bg.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/lang/adodb-ca.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/lang/adodb-cn.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/lang/adodb-cz.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/lang/adodb-da.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/lang/adodb-de.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/lang/adodb-en.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/lang/adodb-eo.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/lang/adodb-es.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/lang/adodb-fa.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/lang/adodb-fr.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/lang/adodb-hu.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/lang/adodb-it.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/lang/adodb-nl.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/lang/adodb-pl.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/lang/adodb-pt-br.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/lang/adodb-ro.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/lang/adodb-ru.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/lang/adodb-sv.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/lang/adodb-th.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/lang/adodb-uk.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/license.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/pear/Auth/Container/ADOdb.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/pear/auth_adodb_example.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/pear/readme.Auth.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/perf/perf-db2.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/perf/perf-informix.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/perf/perf-mssql.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/perf/perf-mssqlnative.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/perf/perf-mysql.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/perf/perf-oci8.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/perf/perf-postgres.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/pivottable.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/replicate/adodb-replicate.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/replicate/replicate-steps.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/replicate/test-tnb.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/rsfilter.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/server.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/session/adodb-compress-bzip2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/session/adodb-compress-gzip.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/session/adodb-cryptsession.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/session/adodb-cryptsession2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/session/adodb-encrypt-mcrypt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/session/adodb-encrypt-md5.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/session/adodb-encrypt-secret.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/session/adodb-encrypt-sha1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/session/adodb-sess.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/session/adodb-session-clob.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/session/adodb-session-clob2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/session/adodb-session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/session/adodb-session2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/session/adodb-sessions.mysql.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/session/adodb-sessions.oracle.clob.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/session/adodb-sessions.oracle.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/session/crypt.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/session/old/adodb-cryptsession.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/session/old/adodb-session-clob.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/session/old/adodb-session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/session/old/crypt.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/session/session_schema.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/session/session_schema2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/benchmark.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/client.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/pdo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/test-active-record.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/test-active-recs2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/test-active-relations.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/test-active-relationsx.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/test-datadict.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/test-perf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/test-pgblob.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/test-php5.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/test-xmlschema.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/test2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/test3.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/test4.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/test5.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/test_rs_array.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/testcache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/testdatabases.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/testgenid.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/testmssql.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/testoci8.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/testoci8cursor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/testpaging.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/testpear.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/testsessions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/time.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/tmssql.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/xmlschema-mssql.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tests/xmlschema.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/toexport.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/tohtml.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/xmlschema.dtd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/xmlschema03.dtd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/xsl/convert-0.1-0.2.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/xsl/convert-0.1-0.3.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/xsl/convert-0.2-0.1.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/xsl/convert-0.2-0.3.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/xsl/remove-0.2.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/adodb/xsl/remove-0.3.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/barcode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/connect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Autoloader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/CachedObjectStorage/APC.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/CachedObjectStorage/CacheBase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/CachedObjectStorage/DiscISAM.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/CachedObjectStorage/ICache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/CachedObjectStorage/Memcache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/CachedObjectStorage/Memory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/CachedObjectStorage/MemoryGZip.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/CachedObjectStorage/MemorySerialized.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/CachedObjectStorage/PHPTemp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/CachedObjectStorage/Wincache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/CachedObjectStorageFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Calculation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Calculation/Database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Calculation/DateTime.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Calculation/Engineering.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Calculation/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Calculation/ExceptionHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Calculation/Financial.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Calculation/FormulaParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Calculation/FormulaToken.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Calculation/Function.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Calculation/Functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Calculation/Logical.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Calculation/LookupRef.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Calculation/MathTrig.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Calculation/Statistical.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Calculation/TextData.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Calculation/functionlist.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Cell.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Cell/AdvancedValueBinder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Cell/DataType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Cell/DataValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Cell/DefaultValueBinder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Cell/Hyperlink.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Cell/IValueBinder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Comment.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/DocumentProperties.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/DocumentSecurity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/HashTable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/IComparable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/IOFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/NamedRange.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Reader/CSV.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Reader/DefaultReadFilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Reader/Excel2003XML.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Reader/Excel2007.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Reader/Excel2007/Theme.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Reader/Excel5.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Reader/Excel5/Escher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Reader/Gnumeric.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Reader/IReadFilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Reader/IReader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Reader/OOCalc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Reader/SYLK.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/ReferenceHelper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/RichText.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/RichText/ITextElement.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/RichText/Run.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/RichText/TextElement.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Settings.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/CodePage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/Date.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/Drawing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/Escher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/Escher/DgContainer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/Escher/DggContainer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/Escher/DggContainer/BstoreContainer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE/Blip.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/Excel5.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/Font.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/CHANGELOG.TXT" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/CholeskyDecomposition.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/EigenvalueDecomposition.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/LUDecomposition.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/Matrix.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/QRDecomposition.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/SingularValueDecomposition.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/docs/docs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/docs/download.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/docs/example.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/docs/includes/credits.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/docs/includes/footer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/docs/includes/header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/docs/includes/navbar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/docs/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/docs/package.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/docs/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/examples/LMQuadTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/examples/LagrangeInterpolation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/examples/LagrangeInterpolation2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/examples/LevenbergMarquardt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/examples/MagicSquareExample.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/examples/Stats.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/examples/benchmark.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/examples/polyfit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/examples/tile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/tests/TestMatrix.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/utils/Error.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/JAMA/utils/Maths.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/OLE.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/OLE/ChainedBlockStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/OLE/PPS.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/OLE/PPS/File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/OLE/PPS/Root.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/OLERead.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/PCLZip/gnu-lgpl.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/PCLZip/pclzip.lib.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/PCLZip/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/PasswordHasher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/String.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/XMLWriter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/ZipArchive.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/ZipStreamWrapper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/trend/bestFitClass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/trend/exponentialBestFitClass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/trend/linearBestFitClass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/trend/logarithmicBestFitClass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/trend/polynomialBestFitClass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/trend/powerBestFitClass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Shared/trend/trendClass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Style.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Style/Alignment.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Style/Border.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Style/Borders.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Style/Color.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Style/Conditional.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Style/Fill.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Style/Font.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Style/NumberFormat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Style/Protection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Worksheet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Worksheet/BaseDrawing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Worksheet/CellIterator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Worksheet/ColumnDimension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Worksheet/Drawing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Worksheet/Drawing/Shadow.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Worksheet/HeaderFooter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Worksheet/HeaderFooterDrawing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Worksheet/MemoryDrawing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Worksheet/PageMargins.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Worksheet/PageSetup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Worksheet/Protection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Worksheet/Row.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Worksheet/RowDimension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Worksheet/RowIterator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Worksheet/SheetView.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/WorksheetIterator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Writer/CSV.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Writer/Excel2007.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Writer/Excel2007/Comments.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Writer/Excel2007/ContentTypes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Writer/Excel2007/DocProps.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Writer/Excel2007/Drawing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Writer/Excel2007/Rels.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Writer/Excel2007/StringTable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Writer/Excel2007/Style.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Writer/Excel2007/Theme.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Writer/Excel2007/Workbook.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Writer/Excel2007/Worksheet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Writer/Excel2007/WriterPart.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Writer/Excel5.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Writer/Excel5/BIFFwriter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Writer/Excel5/Escher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Writer/Excel5/Font.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Writer/Excel5/Parser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Writer/Excel5/Workbook.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Writer/Excel5/Worksheet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Writer/Excel5/Xf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Writer/HTML.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Writer/IWriter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/Writer/PDF.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/cs/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/cs/functions" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/da/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/da/functions" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/de/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/de/functions" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/en/uk/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/es/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/es/functions" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/fi/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/fi/functions" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/fr/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/fr/functions" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/hu/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/hu/functions" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/it/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/it/functions" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/nl/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/nl/functions" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/no/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/no/functions" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/pl/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/pl/functions" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/pt/br/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/pt/br/functions" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/pt/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/pt/functions" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/ru/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/ru/functions" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/sv/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/PHPExcel/locale/sv/functions" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/excel/php-export-data.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/jqgrid_dist.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/jqgrid_dist_php4.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/2dbarcodes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/CHANGELOG.TXT" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/LICENSE.TXT" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/README.TXT" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/barcodes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/class.PDFImage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/class.TCPDF.EasyTable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/afr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/ara.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/aze.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/bel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/bra.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/cat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/ces.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/chi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/cym.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/dan.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/eng.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/est.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/eus.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/far.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/fra.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/ger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/gle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/glg.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/hat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/heb.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/hrv.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/hun.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/hye.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/ind.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/ita.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/kat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/kor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/mkd.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/mlt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/msa.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/nld.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/nob.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/pol.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/por.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/ron.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/rus.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/slv.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/spa.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/sqi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/srp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/swa.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/swe.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/urd.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/yid.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/lang/zho.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/tcpdf_config-old.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/config/tcpdf_config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/datamatrix.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/encodings_maps.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/README.TXT" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/aealarabiya.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/aefurat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/almohanad.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/arial.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/cid0cs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/cid0ct.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/cid0jp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/cid0kr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/courier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/courierb.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/courierbi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/courieri.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/helvetica.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/helveticab.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/helveticabi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/helveticai.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/hysmyeongjostdmedium.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/kozgopromedium.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/kozminproregular.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/msungstdlight.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/stsongstdlight.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/symbol.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/times.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/timesb.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/timesbi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/timesi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/fonts/zapfdingbats.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/htmlcolors.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/pdf417.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/qrcode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/spotcolors.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/tcpdf.crt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/tcpdf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/tcpdf_filters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/tcpdf_parser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Classes/phpgrid/tcpdf/unicode_data.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Cutoffs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/AllEventsController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/CutOffsController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Log.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2017_01_30_150539_allevents.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2017_01_31_083513_cutoffs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2017_01_31_085752_ddMethod.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2017_01_31_090055_ddProgress.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2017_02_03_134624_create_logs_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/css/ellipsis-xbl.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/css/fonts/jquery-ui.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/css/src/jquery-ui.icon-font.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/css/src/ui.bootstrap.jqgrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/css/src/ui.bootstrap3.jqgrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/css/src/ui.jqgrid.base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/css/src/ui.jqgrid.classic.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/css/src/ui.jqgrid.cozy.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/css/src/ui.jqgrid.icon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/css/ui.jqgrid.bs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/css/ui.jqgrid.bs2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/css/ui.jqgrid.classic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/css/ui.jqgrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/css/ui.jqgrid.ie6.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/Changes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-bg1251.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-cat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-dk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-hr1250.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-kr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-mne.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-sr-latin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-tw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-ua.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-ur.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/i18n/grid.locale-vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/install.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jqgrid/js/jquery.jqGrid.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/base/jquery-ui.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/flick/jquery-ui.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/jquery-ui.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/start/jquery-ui.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/sunny/jquery-ui.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phpgrid/themes/vader/jquery-ui.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/adduser.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/allopentickets.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/alltickets.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/completedtickets.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/cutoffs.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/includes/cutoffs.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/includes/message-block.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/inprotickets.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/myfollowups.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/mytickets.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/reassign.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/teamfollowups.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/teamtickets.blade.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/migrations/2017_01_29_231751_Import.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/bluelink.iml" afterPath="$PROJECT_DIR$/.idea/bluelink.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Kernel.php" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ImportController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ImportController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/UserPayrollController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPayrollController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/UserTeamController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserTeamController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2017_01_28_230751_ddPayroll.php" afterPath="$PROJECT_DIR$/database/migrations/2017_01_28_230751_ddPayroll.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2017_01_28_230802_ddTeam.php" afterPath="$PROJECT_DIR$/database/migrations/2017_01_28_230802_ddTeam.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home.blade.php" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/userpayroll.blade.php" afterPath="$PROJECT_DIR$/resources/views/userpayroll.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/users.blade.php" afterPath="$PROJECT_DIR$/resources/views/users.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/userteam.blade.php" afterPath="$PROJECT_DIR$/resources/views/userteam.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,43 +717,52 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="UserPayroll.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/UserPayroll.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="AllEventsController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AllEventsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserTeam.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/UserTeam.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserTeamController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserTeamController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserPayrollController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserPayrollController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-              <folding />
+            <state relative-caret-position="-308">
+              <caret line="804" column="59" lean-forward="true" selection-start-line="804" selection-start-column="59" selection-end-line="804" selection-end-column="59" />
+              <folding>
+                <element signature="e#40#58#0#PHP" expanded="true" />
+                <element signature="e#245#7723#0#PHP" expanded="false" />
+                <element signature="e#7729#14819#0#PHP" expanded="false" />
+                <element signature="e#14825#16884#0#PHP" expanded="false" />
+                <element signature="e#30150#30372#0#PHP" expanded="false" />
+                <element signature="e#30378#31391#0#PHP" expanded="false" />
+                <element signature="e#31397#40102#0#PHP" expanded="false" />
+                <element signature="e#40108#48256#0#PHP" expanded="false" />
+                <element signature="e#48262#56277#0#PHP" expanded="false" />
+                <element signature="e#56283#62986#0#PHP" expanded="false" />
+                <element signature="e#62992#70879#0#PHP" expanded="false" />
+                <element signature="e#70885#71923#0#PHP" expanded="false" />
+                <element signature="e#71929#72095#0#PHP" expanded="false" />
+                <marker date="1487079401946" expanded="true" signature="810:899" ph="SELECT * FRO... cutoffs" />
+                <marker date="1487079401946" expanded="true" signature="810:911" ph="SELECT * FRO... allevents" />
+                <marker date="1487079401946" expanded="true" signature="810:933" ph="SELECT * FRO... cutoffs" />
+                <marker date="1487079401946" expanded="true" signature="8327:8594" ph="SELECT allev... allevents" />
+                <marker date="1487079401946" expanded="true" signature="8327:8595" ph="SELECT *, da... allevents" />
+                <marker date="1487079401946" expanded="true" signature="8815:9000" ph="..." />
+                <marker date="1487079401946" expanded="true" signature="17483:17684" ph="SELECT allev... allevents" />
+                <marker date="1487079401946" expanded="true" signature="17483:17685" ph="SELECT allev... allevents" />
+                <marker date="1487079401946" expanded="true" signature="17483:17695" ph="SELECT allev... allevents" />
+                <marker date="1487079401946" expanded="true" signature="18382:18567" ph="..." />
+                <marker date="1487079401946" expanded="true" signature="19494:19554" ph="select disti... ddprogress" />
+                <marker date="1487079401946" expanded="true" signature="20058:20104" ph="select disti... products" />
+                <marker date="1487079401946" expanded="true" signature="20058:20112" ph="select disti... ddmethod" />
+                <marker date="1487079401946" expanded="true" signature="21196:21244" ph="select disti... ddteam" />
+                <marker date="1487079401946" expanded="true" signature="31912:32161" ph="SELECT allev... allevents" />
+                <marker date="1487079401946" expanded="true" signature="31912:32168" ph="SELECT allev... allevents" />
+                <marker date="1487079401946" expanded="true" signature="32652:32837" ph="..." />
+                <marker date="1487079401946" expanded="true" signature="40628:40883" ph="SELECT allev... allevents" />
+                <marker date="1487079401946" expanded="true" signature="48788:48950" ph="SELECT allev... allevents" />
+                <marker date="1487079401946" expanded="true" signature="48788:48960" ph="SELECT allev... allevents" />
+                <marker date="1487079401946" expanded="true" signature="56803:57049" ph="SELECT allev... allevents" />
+                <marker date="1487079401946" expanded="true" signature="57542:57727" ph="..." />
+                <marker date="1487079401946" expanded="true" signature="57561:57726" ph="..." />
+                <marker date="1487079401946" expanded="true" signature="63493:63741" ph="SELECT allev... allevents" />
+                <marker date="1487079401946" expanded="true" signature="63493:63776" ph="SELECT allev... allevents" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,13 +770,23 @@
       <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="49" column="30" lean-forward="false" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+            <state relative-caret-position="242">
+              <caret line="11" column="59" lean-forward="false" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
               <folding>
-                <marker date="1485646680067" expanded="true" signature="1264:1331" ph="..." />
-                <marker date="1485646680067" expanded="true" signature="1277:1329" ph="..." />
-                <marker date="1485646680067" expanded="true" signature="1278:1328" ph="..." />
+                <marker date="1487081275843" expanded="true" signature="1914:1981" ph="..." />
+                <marker date="1487081275843" expanded="true" signature="1927:1979" ph="..." />
+                <marker date="1487081275843" expanded="true" signature="1928:1978" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mytickets.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/mytickets.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="32" column="53" lean-forward="false" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,10 +797,22 @@
     <findStrings>
       <find>button</find>
       <find>btn-info</find>
+      <find>ddPayroll</find>
+      <find>team</find>
+      <find>paygroup</find>
+      <find>payrollcompany</find>
+      <find>method</find>
+      <find>list1</find>
     </findStrings>
     <replaceStrings>
       <replace>a</replace>
       <replace>btn btn-info</replace>
+      <replace>ddTeam</replace>
+      <replace>team</replace>
+      <replace>payrollcompany</replace>
+      <replace>method</replace>
+      <replace>progress</replace>
+      <replace>mytickets</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -128,38 +826,56 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/app/UserPayroll.php" />
-        <option value="$PROJECT_DIR$/app/UserTeam.php" />
-        <option value="$PROJECT_DIR$/app/Http/Middleware/IsAdmin.php" />
-        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2017_01_27_204057_create_user_teams_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2017_01_27_204235_create_user_payrolls_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
-        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UserTeam.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" />
-        <option value="$PROJECT_DIR$/resources/views/users.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/userpayroll.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/userteam.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/Winauth.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/modals/new-team.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/modals/new-payroll.blade.php" />
+        <option value="$PROJECT_DIR$/config/excel.php" />
+        <option value="$PROJECT_DIR$/resources/views/userteam.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/userpayroll.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UserTeamController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UserPayrollController.php" />
+        <option value="$PROJECT_DIR$/resources/views/includes/message-block.blade.php" />
+        <option value="$PROJECT_DIR$/app/allevents.php" />
         <option value="$PROJECT_DIR$/database/migrations/2017_01_28_230802_ddTeam.php" />
         <option value="$PROJECT_DIR$/database/migrations/2017_01_28_230751_ddPayroll.php" />
-        <option value="$PROJECT_DIR$/resources/views/modals/new-team.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/UserTeamController.php" />
-        <option value="$PROJECT_DIR$/resources/views/modals/new-payroll.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/UserPayrollController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2017_01_31_085752_ddMethod.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2017_01_31_090055_ddProgress.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2017_01_31_083513_cutoffs.php" />
+        <option value="$PROJECT_DIR$/resources/views/cutoffs.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/includes/cutoffs.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CutOffsController.php" />
+        <option value="$PROJECT_DIR$/app/Allevents.php" />
+        <option value="$PROJECT_DIR$/app/Cutoffs.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
+        <option value="$PROJECT_DIR$/resources/views/alltickets.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/allopentickets.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2017_02_03_134624_create_logs_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/teamtickets.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/teamfollowups.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/myfollowups.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/reassign.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/adduser.php" />
+        <option value="$PROJECT_DIR$/resources/views/users.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
+        <option value="$PROJECT_DIR$/resources/views/adduser.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/inprotickets.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/completedtickets.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/app/Classes/phpgrid/connect.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2017_01_30_150539_allevents.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ImportController.php" />
+        <option value="$PROJECT_DIR$/resources/views/mytickets.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/AllEventsController.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
       </list>
     </option>
@@ -232,6 +948,8 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
       <path value="$PROJECT_DIR$/vendor/sebastian/version" />
       <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/phpexcel" />
+      <path value="$PROJECT_DIR$/vendor/maatwebsite/excel" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
@@ -258,6 +976,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -270,180 +989,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bluelink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bluelink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bluelink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bluelink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bluelink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bluelink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bluelink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bluelink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bluelink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bluelink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bluelink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bluelink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bluelink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bluelink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bluelink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bluelink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bluelink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bluelink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Auth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -457,15 +1005,18 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\bluelink\resources\views\modals" />
-      <recent name="C:\wamp64\www\bluelink\resources\views" />
-      <recent name="C:\wamp64\www\bluelink\app\Http\Controllers" />
-      <recent name="C:\wamp64\www\bluelink" />
-      <recent name="C:\wamp64\www\bluelink\bootstrap" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\bluelink\database\migrations" />
+      <recent name="C:\wamp64\www\bluelink\database\migrations\select" />
+      <recent name="C:\wamp64\www\bluelink\database\migrations\selected" />
       <recent name="C:\wamp64\www\bluelink\storage\framework" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\bluelink\resources\views" />
+      <recent name="C:\wamp64\www\bluelink" />
+      <recent name="C:\wamp64\www\bluelink\app\Classes\phpgrid" />
+      <recent name="C:\wamp64\www\bluelink\resources\views\includes" />
+      <recent name="C:\wamp64\www\bluelink\database\migrations\selected" />
     </key>
   </component>
   <component name="RunManager">
@@ -885,15 +1436,30 @@
       <updated>1485519999850</updated>
       <workItem from="1485520001439" duration="2061000" />
       <workItem from="1485537953731" duration="26495000" />
+      <workItem from="1485772458163" duration="20247000" />
+      <workItem from="1485806491819" duration="5145000" />
+      <workItem from="1485848273732" duration="24130000" />
+      <workItem from="1485970981098" duration="474000" />
+      <workItem from="1485971620985" duration="7547000" />
+      <workItem from="1486058562609" duration="35219000" />
+      <workItem from="1486197333803" duration="9222000" />
+      <workItem from="1486232385719" duration="3194000" />
+      <workItem from="1486401065393" duration="659000" />
+      <workItem from="1486401789174" duration="1077000" />
+      <workItem from="1486497489873" duration="3392000" />
+      <workItem from="1486633325938" duration="599000" />
+      <workItem from="1486639029295" duration="6797000" />
+      <workItem from="1486970390465" duration="1979000" />
+      <workItem from="1487068058848" duration="5554000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28556000" />
+    <option name="totallyTimeSpent" value="153791000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -906,10 +1472,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25349087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19978517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -932,7 +1498,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="8" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -940,224 +1508,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bootstrap/cache/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3432">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="220">
-            <caret line="10" column="73" lean-forward="false" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="45" column="51" lean-forward="true" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="8" column="68336" lean-forward="false" selection-start-line="8" selection-start-column="68336" selection-end-line="8" selection-end-column="68336" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-473">
-          <caret line="100" column="8" lean-forward="true" selection-start-line="100" selection-start-column="8" selection-end-line="102" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#53#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/userteam.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/userpayroll.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-67">
-          <caret line="53" column="34" lean-forward="false" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-309">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/IsAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="e#39#51#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/artisan">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-529">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="59" column="49" lean-forward="false" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-397">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Winauth.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="37" column="41" lean-forward="false" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="41" />
-          <folding>
-            <element signature="e#39#52#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1165,39 +1519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="20" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2017_01_27_204057_create_user_teams_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2017_01_28_230802_ddTeam.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2017_01_28_230751_ddPayroll.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/UserPayroll.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1205,33 +1526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/users.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="45" column="36" lean-forward="false" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/modals/new-team.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <marker date="1485645376090" expanded="true" signature="1241:1247" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserTeamController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1239,28 +1533,388 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="21" column="117" lean-forward="false" selection-start-line="21" selection-start-column="117" selection-end-line="21" selection-end-column="117" />
-          <folding>
-            <marker date="1485645593893" expanded="true" signature="1302:1311" ph="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/excel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="91" column="41" lean-forward="true" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Import.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/selected/2017_01_30_150539_allevents.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2017_01_27_204057_create_user_teams_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/userpayroll.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserPayrollController.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="42" column="106" lean-forward="false" selection-start-line="42" selection-start-column="106" selection-end-line="42" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/UserPayroll.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2017_01_28_230802_ddTeam.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="75" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2017_01_31_090055_ddProgress.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2017_01_31_085752_ddMethod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/message-block.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2017_01_31_083513_cutoffs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/cutoffs.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Cutoffs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="52" lean-forward="false" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Allevents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/userteam.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-965">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/alltickets.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/allopentickets.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CutOffsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#118#2218#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/modals/new-team.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="27" column="31" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/teamtickets.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/myfollowups.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/cutoffs.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/teamfollowups.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserTeamController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="42" column="105" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="42" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/users.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="50" column="52" lean-forward="false" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+          <folding>
+            <element signature="e#207#481#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env-local" />
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/adduser.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="81" column="63" lean-forward="false" selection-start-line="81" selection-start-column="63" selection-end-line="81" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/inprotickets.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/reassign.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/completedtickets.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="11" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2017_02_03_134624_create_logs_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2017_01_28_230751_ddPayroll.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="29" column="18" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Classes/phpgrid/connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ImportController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="99" column="37" lean-forward="true" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2017_01_30_150539_allevents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="62" />
+          <folding>
+            <element signature="e#40#56#0#PHP" expanded="false" />
+            <marker date="1486643255650" expanded="true" signature="1122:1400" ph="SELECT allev... allevents" />
+            <marker date="1486643255650" expanded="true" signature="1122:1450" ph="SELECT allev... allevents" />
+            <marker date="1486643255650" expanded="true" signature="7253:7411" ph="SELECT allev... allevents" />
+            <marker date="1486643255650" expanded="true" signature="7253:7465" ph="SELECT allev... allevents" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="171" column="26" lean-forward="false" selection-start-line="171" selection-start-column="26" selection-end-line="171" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="110" column="16" lean-forward="false" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/mytickets.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="32" column="53" lean-forward="false" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AllEventsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-308">
+          <caret line="804" column="59" lean-forward="true" selection-start-line="804" selection-start-column="59" selection-end-line="804" selection-end-column="59" />
+          <folding>
+            <element signature="e#40#58#0#PHP" expanded="true" />
+            <element signature="e#245#7723#0#PHP" expanded="false" />
+            <element signature="e#7729#14819#0#PHP" expanded="false" />
+            <element signature="e#14825#16884#0#PHP" expanded="false" />
+            <element signature="e#30150#30372#0#PHP" expanded="false" />
+            <element signature="e#30378#31391#0#PHP" expanded="false" />
+            <element signature="e#31397#40102#0#PHP" expanded="false" />
+            <element signature="e#40108#48256#0#PHP" expanded="false" />
+            <element signature="e#48262#56277#0#PHP" expanded="false" />
+            <element signature="e#56283#62986#0#PHP" expanded="false" />
+            <element signature="e#62992#70879#0#PHP" expanded="false" />
+            <element signature="e#70885#71923#0#PHP" expanded="false" />
+            <element signature="e#71929#72095#0#PHP" expanded="false" />
+            <marker date="1487079401946" expanded="true" signature="810:899" ph="SELECT * FRO... cutoffs" />
+            <marker date="1487079401946" expanded="true" signature="810:911" ph="SELECT * FRO... allevents" />
+            <marker date="1487079401946" expanded="true" signature="810:933" ph="SELECT * FRO... cutoffs" />
+            <marker date="1487079401946" expanded="true" signature="8327:8594" ph="SELECT allev... allevents" />
+            <marker date="1487079401946" expanded="true" signature="8327:8595" ph="SELECT *, da... allevents" />
+            <marker date="1487079401946" expanded="true" signature="8815:9000" ph="..." />
+            <marker date="1487079401946" expanded="true" signature="17483:17684" ph="SELECT allev... allevents" />
+            <marker date="1487079401946" expanded="true" signature="17483:17685" ph="SELECT allev... allevents" />
+            <marker date="1487079401946" expanded="true" signature="17483:17695" ph="SELECT allev... allevents" />
+            <marker date="1487079401946" expanded="true" signature="18382:18567" ph="..." />
+            <marker date="1487079401946" expanded="true" signature="19494:19554" ph="select disti... ddprogress" />
+            <marker date="1487079401946" expanded="true" signature="20058:20104" ph="select disti... products" />
+            <marker date="1487079401946" expanded="true" signature="20058:20112" ph="select disti... ddmethod" />
+            <marker date="1487079401946" expanded="true" signature="21196:21244" ph="select disti... ddteam" />
+            <marker date="1487079401946" expanded="true" signature="31912:32161" ph="SELECT allev... allevents" />
+            <marker date="1487079401946" expanded="true" signature="31912:32168" ph="SELECT allev... allevents" />
+            <marker date="1487079401946" expanded="true" signature="32652:32837" ph="..." />
+            <marker date="1487079401946" expanded="true" signature="40628:40883" ph="SELECT allev... allevents" />
+            <marker date="1487079401946" expanded="true" signature="48788:48950" ph="SELECT allev... allevents" />
+            <marker date="1487079401946" expanded="true" signature="48788:48960" ph="SELECT allev... allevents" />
+            <marker date="1487079401946" expanded="true" signature="56803:57049" ph="SELECT allev... allevents" />
+            <marker date="1487079401946" expanded="true" signature="57542:57727" ph="..." />
+            <marker date="1487079401946" expanded="true" signature="57561:57726" ph="..." />
+            <marker date="1487079401946" expanded="true" signature="63493:63741" ph="SELECT allev... allevents" />
+            <marker date="1487079401946" expanded="true" signature="63493:63776" ph="SELECT allev... allevents" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="49" column="30" lean-forward="false" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+        <state relative-caret-position="242">
+          <caret line="11" column="59" lean-forward="false" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
           <folding>
-            <marker date="1485646680067" expanded="true" signature="1264:1331" ph="..." />
-            <marker date="1485646680067" expanded="true" signature="1277:1329" ph="..." />
-            <marker date="1485646680067" expanded="true" signature="1278:1328" ph="..." />
+            <marker date="1487081275843" expanded="true" signature="1914:1981" ph="..." />
+            <marker date="1487081275843" expanded="true" signature="1927:1979" ph="..." />
+            <marker date="1487081275843" expanded="true" signature="1928:1978" ph="..." />
           </folding>
         </state>
       </provider>

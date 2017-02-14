@@ -3,7 +3,9 @@
     <a class="btn btn-primary" href="{{ route('home') }}" style="margin:8px 0 0 200px;">Close</a>
 @endsection
 @section('content')
-<style>
+    @include('includes.message-block')
+
+    <style>
     .container{
         width: 100%;
     }
@@ -61,7 +63,7 @@
 
                 {{ $users->links() }}
                 <div class="interaction">
-                    <a href="#" class="btn btn-primary">Add User</a>
+                    <a href="{{ route('adduser') }}" class="btn btn-primary">Add User</a>
                 </div>
             </div>
         </article>

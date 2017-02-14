@@ -40,7 +40,7 @@ class UserTeamController extends Controller
         $userteam->save();
 
 
-        return redirect()->route('userteam', ['user_id' => $userid]);
+        return redirect()->route('userteam', ['user_id' => $userid])->with(['message' => 'Team added!']);
     }
 
     public function getDeleteTeam($id)

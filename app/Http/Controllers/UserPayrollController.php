@@ -40,7 +40,7 @@ class UserPayrollController extends Controller
         $userpayroll->save();
 
 
-        return redirect()->route('userpayroll', ['user_id' => $userid]);
+        return redirect()->route('userpayroll', ['user_id' => $userid])->with(['message' => 'Payroll added!']);
     }
 
     public function getDeletePayroll($id)
