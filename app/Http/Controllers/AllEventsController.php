@@ -30,7 +30,7 @@ class AllEventsController extends Controller
         $opt["multiselect"] = false;
 
         $g->set_options($opt);
-        $g->select_command = "SELECT *, datediff(cut_off_date,date(now())) as diffdate FROM allevents WHERE progress <> 'Completed'";
+        $g->select_command = "SELECT *, datediff(dd,cut_off_date,getdate()) as diffdate FROM allevents WHERE progress <> 'Completed'";
         $g->table = "allevents";
 
         $coe = array();
@@ -280,7 +280,7 @@ class AllEventsController extends Controller
         $opt["multiselect"] = false;
 
         $g->set_options($opt);
-        $g->select_command = "SELECT allevents.*, datediff(cut_off_date,date(now())) as diffdate FROM allevents
+        $g->select_command = "SELECT allevents.*, datediff(dd,cut_off_date,getdate()) as diffdate FROM allevents
                           JOIN user_payrolls ON allevents.payrollcompany = user_payrolls.payrollcompany
                            WHERE progress like 'Open' AND user_payrolls.userid = $userid";
         $g->table = "allevents";
@@ -548,7 +548,7 @@ class AllEventsController extends Controller
 
 
         $g->set_options($opt);
-        $g->select_command = "SELECT allevents.*, datediff(cut_off_date,date(now())) as diffdate
+        $g->select_command = "SELECT allevents.*, datediff(dd,cut_off_date,getdate()) as diffdate
                             FROM allevents
                            WHERE progress not like 'Completed' AND allevents.assignee like '$username'";
         $g->table = "allevents";
@@ -960,7 +960,7 @@ class AllEventsController extends Controller
 
 
         $g->set_options($opt);
-        $g->select_command = "SELECT allevents.*, datediff(cut_off_date,date(now())) as diffdate
+        $g->select_command = "SELECT allevents.*, datediff(dd,cut_off_date,getdate()) as diffdate
                             FROM allevents JOIN user_teams ON allevents.team = user_teams.team
                            WHERE progress not like 'Completed' AND user_teams.userid = $userid";
         $g->table = "allevents";
@@ -1236,7 +1236,7 @@ class AllEventsController extends Controller
 
 
         $g->set_options($opt);
-        $g->select_command = "SELECT allevents.*, datediff(cut_off_date,date(now())) as diffdate
+        $g->select_command = "SELECT allevents.*, datediff(dd,cut_off_date,getdate()) as diffdate
                             FROM allevents JOIN user_teams ON allevents.owner_team = user_teams.team
                            WHERE progress not like 'Completed' AND user_teams.userid = $userid";
         $g->table = "allevents";
@@ -1496,7 +1496,7 @@ class AllEventsController extends Controller
 
 
         $g->set_options($opt);
-        $g->select_command = "SELECT allevents.*, datediff(cut_off_date,date(now())) as diffdate
+        $g->select_command = "SELECT allevents.*, datediff(dd,cut_off_date,getdate()) as diffdate
                             FROM allevents WHERE progress not like 'Completed' AND owner like '$username'";
         $g->table = "allevents";
 
@@ -1754,7 +1754,7 @@ class AllEventsController extends Controller
 
 
         $g->set_options($opt);
-        $g->select_command = "SELECT allevents.*, datediff(cut_off_date,date(now())) as diffdate
+        $g->select_command = "SELECT allevents.*, datediff(dd,cut_off_date,getdate()) as diffdate
                             FROM allevents JOIN user_payrolls ON allevents.payrollcompany = user_payrolls.payrollcompany
                            WHERE progress like 'Completed'";
         $g->table = "allevents";
@@ -1969,7 +1969,7 @@ class AllEventsController extends Controller
 
 
         $g->set_options($opt);
-        $g->select_command = "SELECT allevents.*, datediff(cut_off_date,date(now())) as diffdate
+        $g->select_command = "SELECT allevents.*, datediff(dd,cut_off_date,getdate()) as diffdate
                             FROM allevents JOIN user_payrolls ON allevents.payrollcompany = user_payrolls.payrollcompany
                            WHERE progress like 'In Progress' OR progress like 'In Progress NGA'";
         $g->table = "allevents";

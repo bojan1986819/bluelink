@@ -17,8 +17,7 @@ class HomeController extends Controller
     public function index()
     {
         //list cutoffs with datediff compared to now, within 3 days
-        $cutoffs = Cutoffs::select(DB::Raw('paygroup , date , datediff(date,date(now()))+1 as diffdate'))
-            ->whereRaw('datediff(date,date(now())) < 4')->orderBy('date','asc')->get();
+        $cutoffs = Cutoffs::get();
 
 
         //warning cutoff within 2 days
@@ -36,9 +35,9 @@ class HomeController extends Controller
         $opt["shrinkToFit"] = false;
         $g->set_options($opt);
 
-        $g->select_command = "SELECT allevents.*, datediff(cut_off_date,date(now())) as diffdate
+        $g->select_command = "SELECT allevents.*, datediff(dd,cut_off_date,getdate()) as diffdate
                             FROM allevents JOIN user_payrolls ON allevents.payrollcompany = user_payrolls.payrollcompany
-                           WHERE progress not like 'Completed' AND user_payrolls.userid = $userid AND datediff(cut_off_date,date(now())) < 3";
+                           WHERE progress not like 'Completed' AND user_payrolls.userid = $userid AND datediff(dd,cut_off_date,getdate()) < 3";
         $g->table = "allevents";
 
         $coe = array();
@@ -219,8 +218,8 @@ class HomeController extends Controller
         $opt["shrinkToFit"] = false;
         $g->set_options($opt);
 
-        $g->select_command = "SELECT allevents.*, datediff(cut_off_date,date(now())) as diffdate
-                            FROM allevents WHERE progress not like 'Completed' AND owner = '$username' AND datediff(cut_off_date,date(now())) < 3";
+        $g->select_command = "SELECT allevents.*, datediff(dd,cut_off_date,getdate()) as diffdate
+                            FROM allevents WHERE progress not like 'Completed' AND owner = '$username' AND datediff(dd,cut_off_date,getdate()) < 3";
         $g->table = "allevents";
 
         $coe = array();
